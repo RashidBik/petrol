@@ -4,7 +4,7 @@
     size: "110 مگابایت",
     releaseDate: "1402/10/15",
     requirements: [
-      "سیستم عامل: ویNDOWS 10، 11 ",
+      "سیستم عامل: WINDOWS 10، 11 ",
       "پردازنده: Intel Core i5 یا معادل آن",
       "حافظه رم: حداقل 4 گیگابایت",
       "فضای ذخیره‌سازی: 256 مگابایت فضای آزاد"
@@ -97,8 +97,8 @@
         <h2>نیاز به کمک دارید؟</h2>
         <p>در صورت بروز هرگونه مشکل در دانلود یا نصب نرم‌افزار، با پشتیبانی فنی تماس بگیرید.</p>
         <div class="support-contacts">
-          <a href="mailto:support@tankteel.com" class="support-link">📧 hcrgroup.info@gmail.com</a>
-          <a href="tel:+982112345678" class="support-link">📞 +93795552579</a>
+          <a href="mailto:hcrgroup.info@gmail.com" class="support-link">📧 hcrgroup.info@gmail.com</a>
+          <a href="tel:+93795552579" class="support-link">📞 +93795552579</a>
         </div>
       </div>
     </div>
