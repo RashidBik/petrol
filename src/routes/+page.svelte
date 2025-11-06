@@ -128,7 +128,7 @@
   <section class="download-section">
     <div class="download-content">
       <h2 class="section-title">همین حالا نرم‌افزار را دانلود کنید</h2>
-      <p>نسخه کامل نرم‌افزار با تمامی قابلیت‌ها - رایگان برای 30 روز اول</p>
+      <p>نسخه کامل نرم‌افزار با تمامی قابلیت‌ها - رایگان برای 7 روز اول</p>
       <a href="/download" class="btn btn-primary btn-large">دانلود نسخه 1.3.0</a>
       <div class="download-info">
         <span>حجم: 110 مگابایت</span>
