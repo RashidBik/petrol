@@ -1,38 +1,32 @@
-# sv
+# نرم‌افزار ثبت و آنالیز داده‌های تانک تیل
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+وبسایت معرفی و دانلود نرم‌افزار تخصصی ثبت و آنالیز داده‌های تانک تیل
 
-## Creating a project
+## ویژگی‌ها
 
-If you're seeing this, you've probably already done this step. Congrats!
+- ثبت دقیق داده‌ها
+- آنالیز پیشرفته
+- داشبورد مدیریتی
+- گزارش‌گیری حرفه‌ای
 
-```sh
-# create a new project in the current directory
-npx sv create
+## تکنولوژی‌ها
 
-# create a new project in my-app
-npx sv create my-app
-```
+- SvelteKit
+- JavaScript
+- HTML5
+- CSS3
 
-## Developing
+## نصب و راه‌اندازی
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```bash
+# نصب dependencies
+npm install
 
-```sh
+# اجرای توسعه
 npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
+# ساخت نسخه production
 npm run build
-```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+# پیش‌نمایش نسخه build شده
+npm run preview
