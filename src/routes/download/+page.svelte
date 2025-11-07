@@ -61,7 +61,7 @@
           </div>
 
           <div class="download-button-container">
-            <a href="/downloads/tank-teel-analyzer-v1.0.0.exe" class="btn btn-download" download>
+            <a href="https://github.com/RashidBik/petrol/releases/download/1.0.0/PetroleumSetupV1.3.0.exe" class="btn btn-download" download>
               <span class="download-icon">⬇️</span>
               دانلود نرم‌افزار
             </a>
