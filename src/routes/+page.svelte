@@ -135,6 +135,7 @@
         <span>•</span>
         <span>آخرین بروزرسانی: 1402/10/15</span>
       </div>
+      <small style="color:aqua;"><i>Balkhab software engineers</i> @</small>
     </div>
   </section>
 </div>
