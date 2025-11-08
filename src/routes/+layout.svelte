@@ -7,7 +7,7 @@
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
-<header style="display:flex; align-items:center; justify-content:end; padding:1rem; background:linear-gradient(120deg, #3182ce, #74b9ff);">
+<header style="display:flex; align-items:center; justify-content:end; padding:1rem; background:linear-gradient(120deg, #3182ce, #74b9ff); color: #fff;">
 	<img style="height: 40px; margin-right: 1rem;" src="images/favicon.png" alt="logo" srcset="">
 	<h1 class="logo">Space4</h1>
 </header>
