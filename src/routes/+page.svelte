@@ -110,7 +110,23 @@
       {/each}
     </div>
   </section>
-
+      <section class="tutorials-section">
+        <div class="tutorials-container">
+             <div class="tutorials-cta">
+                <div class="cta-content">
+                    <div class="cta-icon">🎓</div>
+                    <h2>آموزش رایگان نرم‌افزار</h2>
+                    <p>ویدئوهای آموزشی تخصصی برای تسلط کامل بر نرم‌افزار</p>
+                    <a class="cta-button" href="https://whatsapp.com/channel/0029Vb6SYTr5Ejy17hkLHb2C">
+                 
+                          ثبت‌نام رایگان
+                          <span class="arrow">→</span>
+                      
+                  </a>
+                </div>
+            </div>
+        </div>
+    </section>
   <!-- بخش سیستم مورد نیاز -->
   <section class="requirements-section">
     <h2 class="section-title">سیستم مورد نیاز</h2>
@@ -128,7 +144,7 @@
   <section class="download-section">
     <div class="download-content">
       <h2 class="section-title">همین حالا نرم‌افزار را دانلود کنید</h2>
-      <p>نسخه کامل نرم‌افزار با تمامی قابلیت‌ها - رایگان برای 7 روز اول</p>
+      <p>نسخه کامل نرم‌افزار با تمامی قابلیت‌ها - رایگان برای 30 روز اول</p>
       <a href="/download" class="btn btn-primary btn-large">دانلود نسخه 1.3.0</a>
       <div class="download-info">
         <span>حجم: 110 مگابایت</span>
@@ -355,7 +371,145 @@
   .feature-description {
     color: #4a5568;
   }
+      /* استایل‌های بخش آموزش */
+    .tutorials-section {
+        margin: 6rem 0;
+        padding: 3rem 0;
+        color: #fff;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 25px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
 
+
+    .tutorials-container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+  
+    .tutorials-cta {
+        background: linear-gradient(135deg, #72b7fd 0%, #1867b0 100%);
+        border-radius: 20px;
+        padding: 3rem 2rem;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .tutorials-cta::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+        animation: rotate 10s linear infinite;
+    }
+
+    .cta-content {
+        position: relative;
+        z-index: 2;
+    }
+
+    .cta-icon {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        animation: float 3s ease-in-out infinite;
+    }
+
+    .cta-content h2 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .cta-content p {
+        font-size: 1.1rem;
+        opacity: 0.9;
+        margin-bottom: 2rem;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cta-button {
+        background: white;
+        color: #667eea;
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: 25px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin: 0 auto;
+    }
+
+    .cta-button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    .arrow {
+        transition: transform 0.3s ease;
+    }
+
+    .cta-button:hover .arrow {
+        transform: translateX(5px);
+    }
+
+       footer {
+        text-align: center;
+        margin-top: 4rem;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(255,255,255,0.3);
+    }
+    @keyframes float {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            padding: 1rem;
+        }
+        
+        h1 {
+            font-size: 2rem;
+        }
+        
+        .discount-card {
+            width: 300px;
+            height: 220px;
+        }
+        
+        .tutorials-grid {
+            grid-template-columns: 1fr;
+        }
+        
+        .tutorial-meta {
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+    }
   /* استایل بخش سیستم مورد نیاز */
   .requirements-section {
     padding: 80px 0;
