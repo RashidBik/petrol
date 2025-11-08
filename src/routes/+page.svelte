@@ -135,8 +135,9 @@
         <span>•</span>
         <span>آخرین بروزرسانی: 1402/10/15</span>
       </div>
-      <small style="color:aqua;"><i>Balkhab software engineers</i> @</small>
-    </div>
+      <footer>
+        <p style="font-size:smaller;">© 2024 تیم برنامه نویسی Space4 بلخاب<br> تمام حقوق محفوظ است</p>
+      </footer>     </div>
   </section>
 </div>
 
@@ -407,7 +408,12 @@
     gap: 10px;
     color: #cbd5e0;
   }
-
+  footer {
+        text-align: center;
+        margin-top: 4rem;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(255,255,255,0.3);
+    }
   /* رسپانسیو */
   @media (max-width: 768px) {
     .hero {
