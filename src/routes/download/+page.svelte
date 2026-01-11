@@ -9,9 +9,9 @@
         setTimeout(() => couponCopied = false, 2000);
     }
   let downloadInfo = {
-    version: "1.4.0",
+    version: "1.6.0",
     size: "110 مگابایت",
-    releaseDate: "1404/8/22",
+    releaseDate: "2026/01/11",
     requirements: [
       "سیستم عامل: WINDOWS 10، 11 ",
       "پردازنده: Intel Core i5 یا معادل آن",
@@ -59,7 +59,7 @@
             <div class="gift-icon">🎁</div>
             <h3>جایزه ویژه برای شما!</h3>
             <p>برای بهترین فیدبک پس از استفاده رایگان</p>
-            <div class="click-hint">برای دریافت جایزه کلیک کنید</div>
+            <div class="click-hint">finished</div>
         </div>
         
         <div class="discount-back">
@@ -99,7 +99,7 @@
           </div>
 
           <div class="download-button-container">
-            <a href="https://github.com/RashidBik/petrol/releases/download/1.0.0/PetroleumSetupV1.4.0.exe" class="btn btn-download" download>
+            <a href="https://github.com/RashidBik/petrol/releases/download/1.0.0/PetroleumSetupV1.6.0.exe" class="btn btn-download" download>
               <span class="download-icon">⬇️</span>
               دانلود نرم‌افزار
             </a>
