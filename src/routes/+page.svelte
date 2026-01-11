@@ -144,10 +144,10 @@
   <section class="download-section">
     <div class="download-content">
       <h2 class="section-title">همین حالا نرم‌افزار را دانلود کنید</h2>
-      <p>نسخه کامل نرم‌افزار با تمامی قابلیت‌ها - رایگان برای 30 روز اول</p>
-      <a href="/download" class="btn btn-primary btn-large">دانلود نسخه 1.4.0</a>
+      <p>نسخه کامل نرم‌افزار با تمامی قابلیت‌ها - رایگان برای 2 روز اول</p>
+      <a href="/download" class="btn btn-primary btn-large">دانلود نسخه 1.6.0</a>
       <div class="download-info">
-        <span>حجم: 110 مگابایت</span>
+        <span>حجم: 106 مگابایت</span>
         <span>•</span>
         <span>آخرین بروزرسانی: 1404/8/22</span>
       </div>
