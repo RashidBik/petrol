@@ -11,7 +11,7 @@
   let downloadInfo = {
     version: "2.1.0",
     size: "110 مگابایت",
-    releaseDate: "2026/01/11",
+    releaseDate: "2026/04/1",
     requirements: [
       "سیستم عامل: WINDOWS 10، 11 ",
       "پردازنده: Intel Core i5 یا معادل آن",
@@ -108,7 +108,7 @@
         <h2>نیاز به کمک دارید؟</h2>
         <p>در صورت بروز هرگونه مشکل در دانلود یا نصب نرم‌افزار، با پشتیبانی فنی تماس بگیرید.</p>
         <div class="support-contacts">
-          <a href="mailto:hcrgroup.info@gmail.com" class="support-link">📧 hcrgroup.info@gmail.com</a>
+          <a href="mailto:hcrgroup.info@gmail.com" class="support-link">📧 space4.softwares@gmail.com</a>
           <a href="tel:+93795552579" class="support-link">📞 +93795552579</a>
         </div>
       </div>
