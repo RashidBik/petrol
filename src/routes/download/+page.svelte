@@ -9,7 +9,7 @@
         setTimeout(() => couponCopied = false, 2000);
     }
   let downloadInfo = {
-    version: "1.6.0",
+    version: "2.1.0",
     size: "110 مگابایت",
     releaseDate: "2026/01/11",
     requirements: [
@@ -53,34 +53,7 @@
     <div class="download-content">
       <div class="download-card">
     <!-- بخش جایزه جدید -->
-  <section class="discount-section">
-    <div class="discount-card {showCoupon ? 'revealed' : ''}">
-        <div class="discount-front" on:click={() => showCoupon = true}>
-            <div class="gift-icon">🎁</div>
-            <h3>جایزه ویژه برای شما!</h3>
-            <p>برای بهترین فیدبک پس از استفاده رایگان</p>
-            <div class="click-hint">finished</div>
-        </div>
-        
-        <div class="discount-back">
-            <div class="coupon-content">
-                <div class="discount-badge">10% تخفیف</div>
-                <h3>کد تخفیف ویژه</h3>
-                <p>برای خرید نسخه کامل نرم‌افزار</p>
-                
-                <div class="coupon-code" on:click={copyCoupon}>
-                    <span>{couponCode}</span>
-                    <div class="copy-indicator {couponCopied ? 'copied' : ''}">
-                        {couponCopied ? 'کپی شد!' : 'کلیک برای کپی'}
-                    </div>
-                </div>
-                
-                <p class="coupon-terms">این کد را همراه با فیدبک خود به شماره واتساپ  0093795552579 ارسال کنید</p>
-                <button class="close-coupon" on:click={() => showCoupon = false}>بستن</button>
-            </div>
-        </div>
-    </div>
-  </section>
+ 
         <div class="download-info">
           <h2>نرم‌افزار ثبت و آنالیز داده‌های تانک تیل</h2>
           <div class="version-info">
