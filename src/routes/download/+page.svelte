@@ -99,7 +99,7 @@
           </div>
 
           <div class="download-button-container">
-            <a href="https://github.com/RashidBik/petrol/releases/download/1.0.0/PetroleumSetupV1.6.0.exe" class="btn btn-download" download>
+            <a href="https://github.com/RashidBik/petrol/releases/download/2.1.0/PetroleumSetupV2.1.0.exe" class="btn btn-download" download>
               <span class="download-icon">⬇️</span>
               دانلود نرم‌افزار
             </a>
