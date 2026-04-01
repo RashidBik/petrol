@@ -149,7 +149,7 @@
       <div class="download-info">
         <span>حجم: 106 مگابایت</span>
         <span>•</span>
-        <span>آخرین بروزرسانی: 1404/8/22</span>
+        <span>آخرین بروزرسانی: 2026/04/01</span>
       </div>
       <footer>
         <p style="font-size:smaller;">© 2024 تیم برنامه نویسی Space4 بلخاب<br> تمام حقوق محفوظ است</p>
